@@ -1,0 +1,121 @@
+
+/*Banner*/
+.banner {
+    background: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.nav-logo h2{
+    font-family: montserrat;
+    font-weight: 550;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.nav-items{
+    font-family: montserrat;
+    font-weight: 550;
+    font-size: 25px;
+    color: #ffffff;
+}
+.nav-items ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.nav-items ul li a{
+    color: #ffffff;
+
+}
+.nav-items ul li{
+    padding: 0 30px;
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+/*Hero Banner*/
+
+.hero-banner {
+    height: 100vh;
+
+}
+
+.hero-banner{
+    background-image: url('../images/banner-background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.hero-banner .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    height: 100%;
+}
+
+.hero-banner .container h1{
+    text-align: center;
+    font-weight: 650;
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.hero-banner .container h3{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+/*Portfolio*/
+
+.portfolio h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 40px 0 25px 0;
+}
+
+.portfolio .row img{    
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.portfolio .row{
+    padding-bottom: 60px;
+}
+
+/*About Me*/
+
+.about{
+    background-color: #000000;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.about .container h2{
+    text-align: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 30px;
+
+}
+
+.about .container p{
+    color: #ffffff;
+
+}
+
